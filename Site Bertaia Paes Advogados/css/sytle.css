@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Noto+Serif:ital,wght@0,700;1,400&family=Raleway:wght@500&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+
+.cabecalho {
+    position: relative;
+    background-color:#242424;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+
+}
+
+.cabecalho-menu-itens {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFAFA;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bannerprincipal {
+    background-image: url(/imagens/bannerprincipal.jpeg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid black;
+}
+
+h1 {
+    font-family: 'Inria Serif', serif;
+    font-size: 250%;
+    color: #242424 ;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    color: #242424 ;
+}
+
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 90%;
+    color: #242424 ;
+}
+
+#box {
+    background-color: #FFFAFA;;
+    opacity: .6;
+    width: 500px;
+    height: 300px;
+}
+
+
+button{
+    background-color: #242424;
+    opacity: .2;
+}
+
+button .a {
+    color: #FFFAFA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+}
+
+
