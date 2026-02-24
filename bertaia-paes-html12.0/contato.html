@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Bertaia Paes Advocacia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="images/Logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="popup.js">
+    <link rel="preload" as="image" href="images/Logo-BertaiaPaes-Vinho.webp">
+    <a href="https://wa.me/5515997674553" target="_blank" class="whatsapp-float" aria-label="Converse pelo WhatsApp"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" /></a>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N38P5LVB20"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N38P5LVB20');
+    </script>
+</head>
+<meta name="format-detection" content="telephone=no">
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+                    <div class="logo">
+                    <a href="index.html">
+                    <img src="images/Logo-BertaiaPaes-Vinho.webp" alt="Logo" class="logo-img">
+                </a>
+            </div>
+                        
+            <!-- Botão hamburguer -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+
+                <!-- Menu desktop -->
+                <nav class="desktop-menu">
+                    <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#areas-atuacao" class="nav-link">Atuação</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+
+                </div>
+
+                <!-- Menu mobile -->
+                <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item"><a href="index.html" class="mobile-menu-link">Home</a></li>
+                    <li class="mobile-menu-item"><a href="#areas-atuacao" class="mobile-menu-link">Atuação</a></li>
+                    <li class="mobile-menu-item"><a href="contato.html" class="mobile-menu-link">Contato</a></li>
+                </ul>
+                </div>
+            </header>
+
+    <!-- Banner da Página -->
+    <div id="atuacao-contato" class="page-banner">
+        <img src="" alt="" class="">
+        <div class="container page-banner-content">
+            <h1 class="page-title">CONTATO</h1>
+            <div class="page-divider"></div>
+            <p class="page-description">
+                Entre em contato conosco e descubra como podemos ajudar a transformar desafios jurídicos em oportunidades de crescimento.
+            </p>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="section-padding">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <!-- Formulário de Contato -->
+                <div>
+                <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                Envie sua mensagem
+                </h2>
+                <form class="contact-form">
+                <input type="text" name="_honey" style="display:none">
+                <div>
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="direito-societario">Direito Societário</option>
+                    <option value="direito-empresarial">Direito Empresarial</option>
+                    <option value="assessoria-juridica">Direito Contratual</option>
+                    <option value="assessoria-juridica">Planejamento Patrimonial</option>
+                    <option value="assessoria-juridica">Assessoria Jurídica</option>
+                    <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                 <!-- Campos ocultos do FormSubmit -->
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="box" />
+
+                <button type="submit" class="btn-primary" style="width: 100%;">
+                    Enviar mensagem
+                </button>
+                </form>
+            </div>
+
+                <!-- Popup de agradecimento -->
+                
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                        Informações de contato
+                    </h2>                
+                    <div style="margin-bottom: 2rem;">
+                        <h3>Contato</h3>
+                        <p style="margin-bottom: 0.5rem;">
+                            <strong>E-mail:</strong> camila@bertaiapaes.com.br
+                        </p>
+                        <p>
+                            <strong>WhatsApp:</strong> (15) 99767-4553
+                        </p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h3>Horário de atendimento</h3>
+                        <p>
+                            <strong>Segunda a Sexta:</strong> 8h às 19h
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3>Redes sociais</h3>
+                        <div class="social-links">
+                                    <a href="https://www.linkedin.com/company/bertaia-paes-servi%C3%A7os-paralegais/about/" class="footer-social-link" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bertaia_paes/profilecard/?igsh=MXA5dmkxMGZoMHU4Mg%3D%3D" class="footer-social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mapa 
+    <div class="section-padding section-dark">
+        <div class="container">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px; text-align: center;">
+                Localização
+            </h2>
+            <div class="map-container">
+                Mapa de Localização
+            </div>
+        </div>
+    </div>
+-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Logo e Sobre -->
+                <div>
+                    <h2 class="footer-title"><span class="logo-dot">&#9679;</span> Bertaia Paes</h2>
+                    <p class="footer-text">
+                        Transformamos desafios jurídicos em oportunidades de crescimento para nossos clientes, 
+                        com soluções personalizadas e estratégicas.
+                    </p>
+                </div>
+                
+                <!-- Links Rápidos -->
+                <div>
+                    <h3 class="footer-heading">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link-item">
+                            <a href="index.html" class="footer-link">Home</a>
+                        </li>
+                        <!--<li class="footer-link-item">
+                            <a href="noticias.html" class="footer-link">Notícias</a>
+                        </li>-->
+                        <li class="footer-link-item">
+                            <a href="index.html#areas-atuacao" class="footer-link">Áreas de Atuação</a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a href="#atuacao-contato" class="footer-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Contato -->
+                <div>
+                    <h3 class="footer-heading">Contato</h3>
+                    <p class="footer-contact">
+                        <strong>WhatsApp:</strong> (15) 99767-4553
+                    </p>
+                    <p class="footer-contact">
+                        <strong>E-mail:</strong> camila@bertaiapaes.com.br
+                    </p>
+                </div>
+                  <!-- OAB -->
+                <div>
+                        <p class="footer-contact">
+                        <strong>OAB:</strong> SP 526.734
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="copyright">
+                <p class="copyright-text">
+                    © <span id="currentYear"></span> Bertaia Paes Advocacia. Todos os direitos reservados.
+                </p>
+                    <div class="footer-social">
+                    <a href="https://www.instagram.com/bertaia_paes/profilecard/?igsh=MXA5dmkxMGZoMHU4Mg%3D%3D" class="footer-social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="http://www.linkedin.com/company/bertaiapaesadvocacia" class="footer-social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Atualizar ano atual no footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
+        // Função para alternar menu mobile
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu.style.display === 'none') {
+                mobileMenu.style.display = 'block';
+            } else {
+                mobileMenu.style.display = 'none';
+            }
+        }
+    </script>
+    <!-- Script do Pop-up de Confirmação -->
+    <script src="popup.js"></script>
+</body>
+</html>
